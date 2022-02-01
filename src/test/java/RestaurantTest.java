@@ -9,7 +9,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-//Part 3 Solutions
+
 class RestaurantTest {
     Restaurant restaurant;
     
@@ -47,7 +47,7 @@ class RestaurantTest {
         boolean result = restaurant.isRestaurantOpen();
     
         assertFalse(result);
-    
+        //Failing Test Case
     
     }
 
